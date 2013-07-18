@@ -105,7 +105,7 @@ var Core = {
 				
 				logo.animate({
 					height: logoSmallHeight			
-				}, 250, function() {});
+				}, 350, function() {});
 				
 			} else {	
 							
@@ -122,7 +122,7 @@ var Core = {
 		$(window).on("scroll", function() {		
 			$this.checkStickyMenu();				
 			if($(window).scrollTop()>100)
-			{	document.getElementById("eclogo").src='img/pin.png';				
+			{	document.getElementById("eclogo").src='img/ec_icon.png';				
 			}else{
 						document.getElementById("eclogo").src='img/logo.png';	
 			}
