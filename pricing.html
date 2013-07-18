@@ -6,7 +6,7 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<title>Left Sidebar | Porto - Responsive HTML5 Template</title>
+		<title>Easy Clinic</title>
 		<meta name="keywords" content="HTML5 Template" />
 		<meta name="description" content="Porto - Responsive HTML5 Template">
 		<meta name="author" content="Crivos.com">
@@ -34,7 +34,8 @@
 		<link rel="stylesheet" href="css/skins/blue.css">
 
 		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" href="css/bootstrap-responsive-boxed.css" />
+		<!--<link rel="stylesheet" href="css/bootstrap-responsive.css" />-->
 		<link rel="stylesheet" href="css/theme-responsive.css" />
 
 		<!-- Favicons -->
@@ -66,14 +67,14 @@
 		-->
 
 	</head>
-	<body class="">
+	<body class="boxed">
 
-		<body class="boxed">
+		<div class="body">
 			<header>
 				<div class="container">
 					<h1 class="logo">
 						<a href="index.html">
-							<img alt="Porto" src="img/logo.png">
+							<img id="eclogo" alt="Porto" src="img/logo.png">
 						</a>
 					</h1>
 					<div class="search">
@@ -93,7 +94,7 @@
 								<a href="contact-us.html"><i class="icon-angle-right"></i>Contact Us</a>
 							</li>
 							<li class="phone">
-								<span><i class="icon-phone"></i>(123) 456-7890</span>
+								<span><i class="icon-phone"></i>(033) 40071494/97</span>
 							</li>
 						</ul>
 					</nav>
@@ -106,74 +107,13 @@
 					</div>
 					<nav>
 						<ul class="nav nav-pills nav-main" id="mainMenu">
-							<li class="dropdown">
-								<a class="dropdown-toggle" href="index.html">
-									Home
-									<i class="icon-angle-down"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="index.html">Revolution Slider</a></li>
-									<li><a href="index-2.html">Nivo Slider</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="about-us.html">About Us</a>
-							</li>
-							<li class="dropdown">
-								<a class="dropdown-toggle" href="#">
-									Features
-									<i class="icon-angle-down"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li class="dropdown-submenu">
-										<a href="#">Blog</a>
-										<ul class="dropdown-menu">
-											<li><a href="blog-full-width.html">Blog Full Width</a></li>
-											<li><a href="blog-large-image.html">Blog Large Image</a></li>
-											<li><a href="blog-medium-image.html">Blog Medium Image</a></li>
-											<li><a href="blog-post.html">Single Post</a></li>
-										</ul>
-									</li>
-									<li><a href="feature-grid-system.html">Grid System</a></li>
-									<li><a href="feature-pricing-tables.html">Pricing Tables</a></li>
-									<li><a href="feature-icons.html">Icons</a></li>
-									<li><a href="feature-elements.html">Elements</a></li>
-									<li><a href="feature-typograpy.html">Typograpy</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a class="dropdown-toggle" href="#">
-									Portfolio
-									<i class="icon-angle-down"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="portfolio-2-columns.html">2 Columns</a></li>
-									<li><a href="portfolio-3-columns.html">3 Columns</a></li>
-									<li><a href="portfolio-4-columns.html">4 Columns</a></li>
-									<li><a href="portfolio-single-project.html">Single Project</a></li>
-								</ul>
-							</li>
-							<li class="dropdown active">
-								<a class="dropdown-toggle" href="#">
-									Pages
-									<i class="icon-angle-down"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="page-full-width.html">Full width</a></li>
-									<li><a href="page-left-sidebar.html">Left sidebar</a></li>
-									<li><a href="page-right-sidebar.html">Right sidebar</a></li>
-									<li><a href="page-custom-header.html">Custom Header</a></li>
-									<li><a href="page-404.html">404 Error</a></li>
-									<li><a href="page-team.html">Team</a></li>
-									<li><a href="page-services.html">Services</a></li>
-									<li><a href="page-careers.html">Careers</a></li>
-									<li><a href="page-faq.html">FAQ</a></li>
-									<li><a href="sitemap.html">Sitemap</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="contact-us.html">Contact Us</a>
-							</li>
+							<li><a href="index.html">Product</a></li>
+							<li><a href="features.html">Why Easy Clinic</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="about-us.html">Testimonials</a></li>
+                            <li><a href="about-us.html">Support</a></li>
+                            <li class="active"><a href="about-us.html">Company</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -187,13 +127,13 @@
 							<div class="span12">
 								<ul class="breadcrumb">
 									<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-									<li class="active">Pages</li>
+									<li class="active">Pricing</li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="span12">
-								<h2>Left Sidebar</h2>
+								<h2>Pricing</h2>
 							</div>
 						</div>
 					</div>
@@ -207,14 +147,15 @@
 
 								<h4>Categories</h4>
 								<ul class="nav nav-list primary pull-bottom">
-									<li><a href="#">Design</a></li>
-									<li><a href="#">Photos</a></li>
-									<li><a href="#">Videos</a></li>
-									<li><a href="#">Lifestyle</a></li>
-									<li><a href="#">Technology</a></li>
+									<li><a href="#" style="font-size:16px;">Screenshot</a></li>
+									<li><a href="#" style="font-size:16px;">FAQ</a></li>
+									<li><a href="#" style="font-size:16px;">Best Training</a></li>
+									<li><a href="#" style="font-size:16px;">Best Support</a></li>
+									<li><a href="#" style="font-size:16px;">Testimonial</a></li>
+                                    <li><a href="#" style="font-size:16px;">Free Demo</a></li>
 								</ul>
 
-								<div class="tabs">
+								<!--<div class="tabs">
 									<ul class="nav nav-tabs">
 										<li class="active"><a href="#popularPosts" data-toggle="tab"><i class="icon-star"></i> Popular</a></li>
 										<li><a href="#recentPosts" data-toggle="tab">Recent</a></li>
@@ -319,38 +260,31 @@
 											</ul>
 										</div>
 									</div>
-								</div>
+								</div>-->
 
-								<hr />
-
-								<h4>About Us</h4>
-								<p>Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Nulla nunc dui, tristique in semper vel. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. </p>
-
+								
 							</aside>
 						</div>
 						<div class="span9">
-
-							<h2>Left <strong>Sidebar</strong> Page</h2>
-
 							<div class="row">
 								<div class="span9">
-									<p class="lead">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh metus.
-									</p>
-								</div>
-							</div>
+                                	<p><img class="responsive pull-left" src="img/talk.png">&nbsp;A customer is the most important visitor on our premises. He is not dependent on us. We are dependent on him. He is not an interruption in our work. He is the purpose of it. He is not an outsider in our business. He is part of it. We are not doing him a favor by serving him. He is doing us a favor by giving us an opportunity to do so.</p>
+                                    <h5 style="text-align:center;">Mahatma Gandhi</h5>
+                                    <p>&nbsp;</p>
+                                    <p>Easy Clinic is a a leading software provider for doctors in India. From its inception in 2003, Easy Clinic has had only one focus - to deliver a world class international standard software; which is simple to use; at the most affordable cost and backed by an exceptionally high level of customer support.<br><br>
 
-							<hr class="tall">
+Our core team is comprised of Doctors, Health Informatics researchers, Software Developers, Sales, Marketing & Support personnel dedicated to the development and support of new and enhanced products for India’s health care sector.<br><br>
 
-							<div class="row">
-								<div class="span9">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-									<img class="responsive pull-left" src="img/system.jpg">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-									<p>Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-									<p>Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci.</p>
+Our commitment to ongoing software research and development ensures customers are supported both now and into the future in a true partnership. Easy Clinic is designed & developed by professionals who hold international repute in high quality Medical Informatics research and development..</p>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+									
+									
+									
 								</div>
 							</div>
 
@@ -395,11 +329,14 @@
 						</div>
 						<div class="span4">
 							<div class="contact-details">
-								<h4>Get in touch</h4>
+								<h4>Contact Us</h4>
 								<ul class="contact">
-									<li><p><i class="icon-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
-									<li><p><i class="icon-phone"></i> <strong>Phone:</strong> (123) 456-7890</p></li>
-									<li><p><i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></p></li>
+									<li><p><i class="icon-map-marker"></i> <strong>Address:</strong>Novel Medicare Solutions Pvt. Ltd.<br>
+                                        81 Shibnath Sastri Sarani<br>
+                                        Block E, New Alipore<br>
+                                        Kolkata – 700 053</p></li>
+									<li><p><i class="icon-phone"></i> <strong>Phone:</strong> (033) 40071494/97</p></li>
+									<li><p><i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:info@easyclinic.in">info@easyclinic.in</a></p></li>
 								</ul>
 							</div>
 						</div>
