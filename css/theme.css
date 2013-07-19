@@ -798,9 +798,9 @@ body.boxed div.body {
 	background-color: #FFFFFF;
 	border-bottom: 5px solid #121214;
 	border-radius: 5px;
-	border-top: 5px solid #CCC;
+	/*border-top: 5px solid #CCC;*/
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
-	margin: 25px auto;
+	margin: 0 auto;
 	max-width: 100%;
 	width: 1040px;
 }
