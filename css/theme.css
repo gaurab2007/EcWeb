@@ -90,7 +90,7 @@ header div.search input:focus {
 /* Logo */
 header h1.logo {
 	float: left;
-	margin: 15px 0;
+	margin: 22px 0;
 	padding: 0;
 }
 
@@ -188,8 +188,8 @@ header nav ul.nav-main li.dropdown:hover > ul {
 }
 
 header nav ul.nav-top {
-	margin: 10px 0 -10px;
-	min-height: 62px;
+	margin: 5px 0 -10px;
+	min-height: 40px;
 }
 
 header nav ul.nav-top li span {
@@ -224,7 +224,7 @@ body.sticky-menu-active header {
 	background: #FFF;
 	border-bottom: 1px solid #E9E9E9;
 	position: fixed;
-	top: -58px;
+	top: -32px;
 	width: 65.7%;
 	z-index: 1001;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
@@ -233,7 +233,8 @@ body.sticky-menu-active header {
 
 body.sticky-menu-active header h1.logo {
 	position: absolute;
-	bottom: -5px;
+	/*bottom: -5px;*/
+	top:10px;
 }
 
 body.sticky-menu-active header nav ul.nav-main {
@@ -806,7 +807,7 @@ body.boxed div.body {
 }
 
 body.boxed header {
-	padding: 15px 0;
+	padding: 0px;
 	
 }
 
