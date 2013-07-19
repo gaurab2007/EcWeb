@@ -309,10 +309,11 @@ aside ul.nav-list > li > a {
 /* Home Slider - Revolution Slider */
 div.slider-container {
 	background: #666;
-	max-height: 500px;
+	max-height: 400px;
 	overflow: hidden;
 	padding: 0;
 	position: relative;
+	border-top:1px solid #000;
 }
 
 div.slider-container ul {
@@ -322,7 +323,7 @@ div.slider-container ul {
 }
 
 div.slider {
-	max-height: 500px;
+	max-height: 400px;
 	position: relative;
 	margin:0px 0px 30px 0px;
 }
