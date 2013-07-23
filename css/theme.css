@@ -104,7 +104,7 @@ header nav select.selectnav {
 }
 
 header nav ul.nav-main {
-	margin: -5px 10px 20px 0
+	margin: -5px -12px 20px 0
 }
 
 header nav ul.nav-main li.dropdown.open a.dropdown-toggle {
@@ -309,11 +309,11 @@ aside ul.nav-list > li > a {
 /* Home Slider - Revolution Slider */
 div.slider-container {
 	background: #666;
-	max-height: 400px;
+	max-height: 475px;
 	overflow: hidden;
 	padding: 0;
 	position: relative;
-	border-top:1px solid #000;
+	border-top:1px solid #dddddd;
 }
 
 div.slider-container ul {
@@ -323,7 +323,7 @@ div.slider-container ul {
 }
 
 div.slider {
-	max-height: 400px;
+	max-height: 425px;
 	position: relative;
 	margin:0px 0px 30px 0px;
 }
@@ -339,12 +339,14 @@ div.slider-container {
 div.slider-container div.caption {
 	filter: alpha(opacity=0);
 	opacity: 0;
+	
 }
 
 div.slider-container div.top-label {
 	color: #000;
 	font-size: 36px;
 	font-weight: 600;
+	top:115px !important;
 }
 
 div.slider-container div.main-label {
@@ -353,6 +355,7 @@ div.slider-container div.main-label {
 	font-weight: 600;
 	line-height:40px;
 	padding:0px 0px 0px 30px;
+	top:150px !important;
 	/*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);*/
 }
 
@@ -361,7 +364,8 @@ div.slider-container div.bottom-label {
 	font-size: 20px;
 	font-weight: 300;
 	line-height:24px;
-	padding:50px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	top:200px !important;
 }
 
 div.slider-container div.caption a,
