@@ -723,14 +723,14 @@ div.feature-box div.feature-box-icon {
 	color: #FFF;
 	display: inline-block;
 	float: left;
-	height: 60px;
-	line-height: 58px;
+	height: 65px;
+	line-height: 65px;
 	margin-right: 10px;
-	margin-bottom:50px;
+	margin-bottom:70px;
 	position: relative;
 	text-align: center;
 	top: 5px;
-	width: 60px;
+	width: 65px;
 }
 
 div.feature-box div.feature-box-info {
