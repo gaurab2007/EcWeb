@@ -99,6 +99,7 @@ a.thumb-info span.thumb-info-type {
 
 a.thumb-info span.thumb-info-action-icon {
 	background-color: #0088cc;
+	
 }
 
 .thumbnail span.zoom {
@@ -129,6 +130,7 @@ div.tabs ul.nav-tabs li.active a {
 
 ul.list.icons li i {
 	color: #0088cc;
+	width:40px; height:40px;
 }
 
 textarea,
