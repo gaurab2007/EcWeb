@@ -346,7 +346,7 @@ div.slider-container div.top-label {
 	color: #000;
 	font-size: 36px;
 	font-weight: 600;
-	top:115px !important;
+	top:25% !important;
 	left:72px !important;
 }
 
@@ -356,7 +356,7 @@ div.slider-container div.main-label {
 	font-weight: 600;
 	line-height:40px;
 	padding:0px 0px 0px 30px;
-	top:150px !important;
+	top:35% !important;
 	/*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);*/
 }
 
@@ -366,7 +366,7 @@ div.slider-container div.bottom-label {
 	font-weight: 300;
 	line-height:24px;
 	padding:0px 0px 0px 0px;
-	top:200px !important;
+	top:47% !important;
 }
 
 div.slider-container div.caption a,
