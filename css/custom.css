@@ -7,3 +7,60 @@
 .demo_btn{margin:10% 0px 0px 18%; float:left;}
 .demo_btn2{margin:55% 0px 0px 28%; float:left;}
 .demo_btn3{margin:26% 0px 0px 19%; float:left;}
+.clear{clear:both; line-height:1px;}
+
+
+
+
+
+
+/*header nav ul.nav-main li a {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-transform: uppercase;
+}
+
+}*/
+/*@media screen and (max-width: 901px) { 
+header nav ul.nav-main li a {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-transform: uppercase;
+	padding:10px 5px 0px 5px;
+}
+
+}*/
+/*@media screen and (max-width: 831px) { 
+header nav ul.nav-main li a {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-transform: uppercase;
+	padding:10px 5px 0px 5px;
+}
+
+}*/
+/*@media screen and (max-width: 800px) { 
+header nav ul.nav-main li a {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-transform: uppercase;
+	padding:10px 5px 0px 5px;
+}
+
+}*/
