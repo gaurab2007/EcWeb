@@ -8,7 +8,7 @@
 .demo_btn2{margin:55% 0px 0px 28%; float:left;}
 .demo_btn3{margin:26% 0px 0px 19%; float:left;}
 .clear{clear:both; line-height:1px;}
-
+.left{float:left;}
 
 
 
@@ -38,19 +38,12 @@ header nav ul.nav-main li a {
 }
 
 }*/
-/*@media screen and (max-width: 831px) { 
-header nav ul.nav-main li a {
-	font-size: 0.9em;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
-	text-transform: uppercase;
-	padding:10px 5px 0px 5px;
-}
+@media screen and (max-width: 1199px) { 
+.container_top{width:100%;
+position:relative; z-index:99;
+height:50px;
 
-}*/
+}
 /*@media screen and (max-width: 800px) { 
 header nav ul.nav-main li a {
 	font-size: 0.9em;

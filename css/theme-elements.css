@@ -1421,15 +1421,22 @@ span.arrow {
 }
 
 span.arrow.hl {
-	background-position: -209px 0;
+	background-position: -209px 0px;
 	width: 120px;
 	height: 47px;
+	-webkit-transform: rotate(-190deg);
+
+-moz-transform: rotate(-190deg);
+
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+color:#FFF;
 }
 
 span.arrow.hlb {
 	background-position: -209px -101px;
 	width: 120px;
 	height: 47px;
+	
 }
 
 /* Google Maps */
