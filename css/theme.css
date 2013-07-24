@@ -225,7 +225,7 @@ body.sticky-menu-active header {
 	border-bottom: 1px solid #E9E9E9;
 	position: fixed;
 	top: -32px;
-	width: 65.7%;
+	width: 100%;
 	z-index: 1001;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
 	filter: none;
@@ -309,11 +309,12 @@ aside ul.nav-list > li > a {
 /* Home Slider - Revolution Slider */
 div.slider-container {
 	background: #666;
-	max-height: 475px;
+	max-height: 485px;
 	overflow: hidden;
 	padding: 0;
 	position: relative;
 	border-top:1px solid #dddddd;
+	max-width:1160px; margin:0 auto;
 }
 
 div.slider-container ul {
@@ -343,20 +344,17 @@ div.slider-container div.caption {
 }
 
 div.slider-container div.top-label {
-	color: #000;
+	color: #FFF;
 	font-size: 36px;
 	font-weight: 600;
-	top:25% !important;
-	left:72px !important;
+	
 }
 
 div.slider-container div.main-label {
-	color: #0093dd;
+	color: #FFFFFF;
 	font-size: 36px;
 	font-weight: 600;
 	line-height:40px;
-	padding:0px 0px 0px 30px;
-	top:35% !important;
 	/*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);*/
 }
 
@@ -364,9 +362,7 @@ div.slider-container div.bottom-label {
 	color: #000;
 	font-size: 20px;
 	font-weight: 300;
-	line-height:24px;
-	padding:0px 0px 0px 0px;
-	top:47% !important;
+	
 }
 
 div.slider-container div.caption a,
@@ -410,11 +406,11 @@ div.nivo-slider .theme-default .nivo-caption {
 /* Home Intro */
 div.home-intro {
 	background-color: #171717;
-	margin-bottom: 60px;
 	overflow: hidden;
-	padding: 20px 0 10px 0;
+	padding: 20px 30px 10px 30px;
 	position: relative;
 	text-align: left;
+	max-width:1100px; margin:0 auto 25px;
 }
 
 div.home-intro div.get-started {

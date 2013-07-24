@@ -90,37 +90,40 @@ var Core = {
 	stickyMenu: function() {
 
 		if($("body").hasClass("boxed"))
-		{
-			var logo = $("header .logo img"),
+			return false;
+
+		var logo = $("header .logo img"),
 			$this = this,
 			logoSmallHeight = 50;
 
 		$this.checkStickyMenu = function() {
-			
+
 			if($(window).scrollTop() > logoSmallHeight && $(window).width() > 768) {
+
 				if($("body").hasClass("sticky-menu-active"))
 					return false;
 
 				$("body").addClass("sticky-menu-active");
 				
 				logo.animate({
-					height: logoSmallHeight			
-				}, 350, function() {});
+					height: logoSmallHeight
+				}, 250, function() {});
 				
-			} else {	
-							
+			} else {
+
 				$("body").removeClass("sticky-menu-active");
+
 				logo
 					.css("height", "auto")
-					.css("width", "auto");					
+					.css("width", "auto");
+
 			}
 
-			} 
-			
 		}
 
-		$(window).on("scroll", function() {		
-			$this.checkStickyMenu();				
+		$(window).on("scroll", function() {
+
+			$this.checkStickyMenu();
 			if($(window).scrollTop()>100)
 			{	document.getElementById("eclogo").src='img/ec_icon.png';				
 			}else{
@@ -128,6 +131,8 @@ var Core = {
 			}
 
 		});
+
+		
 
 		$(window).on("resize", function() {
 
