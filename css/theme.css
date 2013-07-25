@@ -189,8 +189,8 @@ header nav ul.nav-main li.dropdown:hover > ul {
 }
 
 header nav ul.nav-top {
-	margin: 5px 0 -10px;
-	min-height: 40px;
+	margin: 5px 0 10px;
+	min-height: 30px;
 }
 
 header nav ul.nav-top li span {
