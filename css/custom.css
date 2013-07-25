@@ -81,18 +81,29 @@
 	
 	
 .btn_wrapper{width:75%; margin:0 auto;}	
-/*@media screen and (max-width: 1199px) {
-.btn_wrapper{width:92%; margin:0 auto;} 
+.btn_wrapper p{font-family:Shadows Into Light; font-size:30px !important; text-align:center; margin:0px; padding:0px;}
+@media screen and (max-width: 1199px) {
+.btn_wrapper{width:100%; margin:0 auto;} 
 }	
 @media screen and (max-width: 979px) {
-.btn_wrapper{width:115%; margin:0px 0px 0px 0px;} 
+.btn_wrapper{width:115%; margin:0px 0px 0px -7%;} 
 }	
-@media screen and (max-width: 830px) {
- 
-}*/		
-	
-
-	
+@media screen and (max-width: 840px) {
+.btn_wrapper{width:90%; margin:0 auto;} 
+}		
+@media screen and (max-width: 516px) {
+.btn_wrapper p{font-size:26px !important; text-align:center !important;} 
+}	
+@media screen and (max-width: 478px) {
+.btn_wrapper{width:100%; margin:0 auto;}
+.btn_wrapper p{font-size:24px !important; text-align:center !important;}
+.arrow hl{display:none !important;} 
+}
+@media screen and (max-width: 434px) {
+.btn_wrapper{width:88%; margin:0 auto;}
+.btn_wrapper p{font-size:24px !important; text-align:center !important;}
+.arrow hl{display:none !important;} 
+}	
 	
 	
 	
