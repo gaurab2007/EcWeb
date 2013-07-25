@@ -1,5 +1,5 @@
 /* Add here all your CSS customizations */
-.feature-box-icon2{float:left; margin:0px 15px 0px 0px;}
+.feature-box-icon2{float:left; margin:0px 15px 15px 0px;}
 .feature_row{width:100%; float:left; margin:15px 0px 25px 0px;}
 .feature_row h4 span{color:#666;}
 .feature-box-info h4{font-size:120%;}
@@ -41,3 +41,71 @@
 .btn-demo:active,
 .btn-demo.active {
 	background-color: #c36400 \9;
+}
+
+
+
+
+
+.btn-testimonials {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #0088cc;
+	background-image: -moz-linear-gradient(top, #00a3f4, #0175af);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00a3f4), to(#0175af));
+	background-image: -webkit-linear-gradient(top, #00a3f4, #0175af);
+	background-image: -o-linear-gradient(top, #00a3f4, #0175af);
+	background-image: linear-gradient(to bottom, #00a3f4, #0175af);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+	border-color: #0044cc #0044cc #002a80;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	
+}
+
+.btn-testimonials:hover,
+.btn-testimonials:focus,
+.btn-testimonials:active,
+.btn-testimonials.active,
+.btn-testimonials.disabled,
+.btn-testimonials[disabled] {
+	color: #ffffff;
+	background-color: #0175af;
+}
+
+.btn-testimonials:active,
+.btn-testimonials.active {
+	background-color: #0175af \9;
+}
+	
+	
+.btn_wrapper{width:75%; margin:0 auto;}	
+/*@media screen and (max-width: 1199px) {
+.btn_wrapper{width:92%; margin:0 auto;} 
+}	
+@media screen and (max-width: 979px) {
+.btn_wrapper{width:115%; margin:0px 0px 0px 0px;} 
+}	
+@media screen and (max-width: 830px) {
+ 
+}*/		
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
